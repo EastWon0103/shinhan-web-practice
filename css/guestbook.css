@@ -1,0 +1,28 @@
+.guestbook {
+    width: 100;
+}
+
+.guestbook input {
+    width: 100%;
+    background-color: #b0b0b0;
+}
+
+.guestbook input::placeholder {
+    color: #525453;
+}
+
+.guestbook textarea {
+    width: 100%;
+    margin: 5px;
+    background-color: #b0b0b0;
+}
+
+.guestbook textarea::placeholder {
+    color: #525453;
+}
+
+.guestbook button {
+    width: 100%;
+    margin: 10px auto;
+    background-color: #b0b0b0;
+}
