@@ -5,51 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>안녕하세요</title>
         <style>
-            @import url('/css/main.css');
-            @import url('/css/header.css');
-            @import url('/css/crumbs.css');
-            @import url('/css/guestbook.css');
+            @import url(nav.css);
+            @import url(header.css);
         </style>
     </head>
     <body>
-        <header>
-            <img
-                src="https://www.technojobs.co.uk/info/sites/www.technojobs.co.uk/files/styles/article_image_large/public/Blog%20Banner%20%2842%29.png?itok=kr_38j8u"
-            />
-            <h1>안녕하세요 OO하는 김동원 입니다!</h1>
-        </header>
-        <nav class="crumbs">
-            <ol>
-                <li class="crumb">Main</li>
-            </ol>
+        <nav>
+            <div class="navItem">Home</div>
+            <div class="navItem">Project</div>
+            <div class="navItem">Recommend</div>
+            <div class="navItem">Contact</div>
         </nav>
-        <section>
-            <article>
-                <h3>INDEX</h3>
-                <ol>
-                    <li><a href="index.html">Main</a></li>
-                    <li><a href="/page/career.html">Project</a></li>
-                    <li><a href="/page/career.html">Career</a></li>
-                    <li><a href="/page/career.html">Etc..</a></li>
-                </ol>
-            </article>
-        </section>
-        <section>
-            <article></article>
-            <article></article>
-        </section>
-        <section>
-            <article class="guestbook">
-                <h2>📒 방명록</h2>
-                    <label for="nickname">닉네임: </label>
-                    <input type="text" name="nickname" placeholder="닉네임 입력" /> <br>
-                    <label for="password">비밀번호: </label>
-                    <input type="password" name="password" placeholder="비밀번호 입력" /><br></br>
-                    <textarea placeholder="메시지를 입력하세요" rows="6"></textarea><br></br>
-                    <button type="submit">제출</button>
-                </form>
-            </article>
-        </section>
-        <footer></footer>
+        <header>
+            <div class="headerInfo">
+                <div class="badge">👋 안녕하세요!</div>
+                <h1>
+                    신입 백엔드 개발자.<br />
+                    <em>Problem Solver.</em><br />
+                    OOO입니다.
+                </h1>
+                <div class="headerLinkContainer">
+                    <a class="githubLink" href="https://www.google.com" target="_blank">Github Link</a>
+                    <a class="resumeLink" href="https://www.google.com" , target="_blank">Resume Link</a>
+                </div>
+            </div>
+            <div class="profileImage"><img src="profile.jpeg" /></div>
+        </header>
     </body>
 </html>
