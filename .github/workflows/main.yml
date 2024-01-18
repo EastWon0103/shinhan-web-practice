@@ -24,4 +24,4 @@ jobs:
               run: aws s3 sync web s3://dongwon-portfolio/
 
             - name: Invalidate CloudFront
-              run: aws cloudfront create-invalidation --distribution-id EXDCZIKO18OHH --paths /* # Cloudfront ID로 변경
+              run: aws cloudfront create-invalidation --distribution-id EXDCZIKO18OHH --paths "/*" # Cloudfront ID로 변경
