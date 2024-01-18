@@ -1,0 +1,25 @@
+#contact {
+    z-index: 20;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    width: 200px;
+    border-radius: 32px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background: linear-gradient(98deg, #bed3ff -10.83%, #d2f3e5 51.79%, #ffebd9 110.76%);
+
+    color: rgba(64, 57, 48, 0.8);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width: 600px) {
+    #contact {
+        display: none;
+    }
+}

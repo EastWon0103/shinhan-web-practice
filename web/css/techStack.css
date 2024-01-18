@@ -1,0 +1,68 @@
+.techStack {
+    text-align: center;
+    padding: 100px 120px;
+}
+
+.techStack h1 {
+    color: #000;
+    font-family: Pretendard;
+    height: fit-content;
+    margin-top: 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 65% */
+    letter-spacing: -0.8px;
+}
+
+.techStack p {
+    color: #333;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+}
+
+.techStackImageLineContainer {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.techStackImageLineContainer img {
+    width: 120px;
+    height: 120px;
+}
+
+@media (max-width: 520px) {
+    .techStack {
+        padding: 64px 24px;
+    }
+
+    .techStack h1 {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    .techStack p {
+        color: #333;
+        font-family: Pretendard;
+        font-size: 12px;
+        text-align: start;
+        line-height: 120%;
+    }
+
+    .techStackImageLineContainer {
+        display: flex;
+        margin-top: 20px;
+        gap: 16px;
+    }
+
+    .techStackImageLineContainer img {
+        width: 72px;
+        height: 72px;
+    }
+}

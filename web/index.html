@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1" />
+        <title>안녕하세요</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <style>
+            @import url(css/nav.css);
+            @import url(css/header.css);
+            @import url(css/introduce.css);
+            @import url(css/techStack.css);
+            @import url(css/project.css);
+            @import url(css/contact.css);
+            @import url(css/review.css);
+            @import url(css/aspiration.css);
+            @import url(css/footer.css);
+            body {
+                margin: 0 0;
+                padding: 0 0;
+                box-sizing: border-box;
+            }
+        </style>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N61EJ4RDN9"></script>
+        <script async src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-N61EJ4RDN9');
+        </script>
+    </head>
+    <body>
+        <nav>
+            <div class="navItem">Home</div>
+            <div class="navItem">Project</div>
+            <div class="navItem">Recommend</div>
+            <div class="navItem">Contact</div>
+        </nav>
+        <header>
+            <div class="headerInfo">
+                <div class="badge"><span class="wave">👋</span> 안녕하세요!</div>
+                <h1>
+                    신입 백엔드 개발자.<br />
+                    <em>Problem Solver.</em><br />
+                    김동원입니다.
+                </h1>
+                <div class="headerLinkContainer">
+                    <a
+                        class="githubLink"
+                        href="https://www.google.com"
+                        target="_blank"
+                        onclick="onClickButton('github')"
+                        >Github Link</a
+                    >
+                    <a
+                        class="resumeLink"
+                        href="https://www.google.com"
+                        target="_blank"
+                        onclick="onClickButton('resume')"
+                        >Resume Link</a
+                    >
+                </div>
+            </div>
+            <div class="profileImage"><img src="asset/profile.jpeg" /></div>
+        </header>
+        <section class="introduce">
+            <article>
+                <h1>끊임없이 배우고</h1>
+                <h1>집요하게 해결하는 백엔드 개발자 김동원입니다.<img src="asset/grow-up.png" /></h1>
+                <p>
+                    항상 새로운 기술에 열려 있으며, 문제 해결에 대한 열정으로 프로젝트에 참여합니다.<br />
+                    꾸준한 성장과 협업을 통해 새로운 아이디어를 탐험하고 효과적인 솔루션을 찾는 것을 즐깁니다. <br />
+                    강력한 분석 및 문제 해결 능력으로 효율적이고 확장 가능한 코드를 작성하는 것에 자부심을 가지고
+                    있습니다. <br />
+                    팀과 함께 협력하며, 사용자 중심의 솔루션을 만들기 위해 노력하고 있습니다. <br />
+                    끊임없는 도전을 통해 성장하는 개발자로서 기여하고 싶습니다.
+                </p>
+            </article>
+        </section>
+        <section class="techStack">
+            <article>
+                <h1>기술 스택</h1>
+                <p>지금까지 활용해본 기술들입니다. <br />넓고 깊은 기술 스택을 얻기 위해 노력하고 있습니다.</p>
+                <div class="techStackImageLineContainer">
+                    <img src="asset/tech/html.svg" />
+                    <img src="asset/tech/css.svg" />
+                    <img src="asset/tech/js.svg" />
+                    <img src="asset/tech/react.svg" />
+                    <img src="asset/tech/icon.png" />
+                    <img src="asset/tech/bootstrap.svg" />
+                    <img src="asset/tech/tailwind.svg" />
+                    <img src="asset/tech/sass.svg" />
+                    <img src="asset/tech/git.svg" />
+                    <img src="asset/tech/greensock.svg" />
+                    <img src="asset/tech/vscode.svg" />
+                    <img src="asset/tech/github.svg" />
+                </div>
+            </article>
+        </section>
+        <section class="project">
+            <h1>내 프로젝트</h1>
+            <div class="projectContainer">
+                <article>
+                    <div class="projectInfo">
+                        <h1>Sheepify Status</h1>
+                        <p>React, Typescriipt, MobX</p>
+                        <p>인기 있는 Sheepify 앱을 위해 귀여운 <br />스타일로 빈 상태 화면을 디자인했습니다.</p>
+                        <div class="projectLink"><a href="#">노션 링크</a> <a href="#">깃허브 링크</a></div>
+                    </div>
+                    <div class="projectImageContainer">
+                        <div class="projectImage"><img src="asset/phone/phone1.png" /></div>
+                        <div class="projectImage"><img src="asset/phone/phone2.png" /></div>
+                        <div class="projectImage"><img src="asset/phone/phone3.png" /></div>
+                    </div>
+                </article>
+                <article>
+                    <div class="projectInfo">
+                        <h1>Sheepify Status</h1>
+                        <p>React, Typescriipt, MobX</p>
+                        <p>인기 있는 Sheepify 앱을 위해 귀여운 <br />스타일로 빈 상태 화면을 디자인했습니다.</p>
+                        <div class="projectLink"><a href="#">노션 링크</a> <a href="#">깃허브 링크</a></div>
+                    </div>
+                    <div class="projectDynamicImageContainer">
+                        <div class="projectDynamicImageSide">
+                            <img src="asset/phone/phone1.png" />
+                            <img src="asset/phone/phone3.png" />
+                        </div>
+                        <div class="projectDynamicImageMain">
+                            <img src="asset/phone/phone2.png" />
+                            <img src="asset/phone/phone2.png" />
+                        </div>
+                        <div class="projectDynamicImageSide">
+                            <img src="asset/phone/phone3.png" />
+                            <img src="asset/phone/phone1.png" />
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="projectInfo">
+                        <h1>Sheepify Status</h1>
+                        <p>React, Typescriipt, MobX</p>
+                        <p>인기 있는 Sheepify 앱을 위해 귀여운 <br />스타일로 빈 상태 화면을 디자인했습니다.</p>
+                        <div class="projectLink"><a href="#">노션 링크</a> <a href="#">깃허브 링크</a></div>
+                    </div>
+                    <div class="projectDynamicImageContainer">
+                        <div class="projectDynamicImageSide">
+                            <img src="asset/phone/phone1.png" />
+                            <img src="asset/phone/phone3.png" />
+                        </div>
+                        <div class="projectDynamicImageMain">
+                            <img src="asset/phone/phone2.png" />
+                            <img src="asset/phone/phone2.png" />
+                        </div>
+                        <div class="projectDynamicImageSide">
+                            <img src="asset/phone/phone3.png" />
+                            <img src="asset/phone/phone1.png" />
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="review">
+            <h1>함께 개발한 동료들의 평가</h1>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p class="review-text">
+                            "OOO은 개발 역량 뿐 아니라 함께 일하기 너후 좋은 동료였습니다. 항상 문제 해결에 적극적이고,
+                            다른 팀원들의 문제에도 발벗고 도움을 주었습니다. OO과 함께하는 프로젝트는 항상 성과가
+                            좋았습니다.
+                        </p>
+                        <p class="reviewer">OO프로젝트 팀원, 민재1</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="review-text">
+                            "OOO은 개발 역량 뿐 아니라 함께 일하기 너후 좋은 동료였습니다. 항상 문제 해결에 적극적이고,
+                            다른 팀원들의 문제에도 발벗고 도움을 주었습니다. OO과 함께하는 프로젝트는 항상 성과가
+                            좋았습니다.
+                        </p>
+                        <p class="reviewer">OO프로젝트 팀원, 민재2</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="review-text">
+                            "OOO은 개발 역량 뿐 아니라 함께 일하기 너후 좋은 동료였습니다. 항상 문제 해결에 적극적이고,
+                            다른 팀원들의 문제에도 발벗고 도움을 주었습니다. OO과 함께하는 프로젝트는 항상 성과가
+                            좋았습니다.
+                        </p>
+                        <p class="reviewer">OO프로젝트 팀원, 민재3</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="review-text">
+                            "OOO은 개발 역량 뿐 아니라 함께 일하기 너후 좋은 동료였습니다. 항상 문제 해결에 적극적이고,
+                            다른 팀원들의 문제에도 발벗고 도움을 주었습니다. OO과 함께하는 프로젝트는 항상 성과가
+                            좋았습니다.
+                        </p>
+                        <p class="reviewer">OO프로젝트 팀원, 민재4</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="review-text">
+                            "OOO은 개발 역량 뿐 아니라 함께 일하기 너후 좋은 동료였습니다. 항상 문제 해결에 적극적이고,
+                            다른 팀원들의 문제에도 발벗고 도움을 주었습니다. OO과 함께하는 프로젝트는 항상 성과가
+                            좋았습니다.
+                        </p>
+                        <p class="reviewer">OO프로젝트 팀원, 민재5</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="aspiration">
+            <h1 class="aspiration-text">
+                꼼꼼함과 기술에 대한 집요함으로 어떤 문제든 <br />
+                해결해내는 백엔드 개발자가 되겠습니다.
+                <br />감사합니다! 😊
+            </h1>
+        </section>
+        <footer class="my-footer">
+            <div><a href="#">facebook</a><a href="#">instagram</a><a href="#">linkedin</a></div>
+            <p>Copyright ©2024 All rights reserved</p>
+        </footer>
+        <div id="contact">Contact Me</div>
+        <script src="js/swiper.js"></script>
+        <script>
+            function onClickButton(type) {
+                if (type === 'github') {
+                    gtag('event', 'github button', {
+                        event_category: 'github button click',
+                        event_label: 'github button click',
+                    });
+                } else if (type === 'resume') {
+                    gtag('event', 'resume button', {
+                        event_category: 'resume button click',
+                        event_label: 'resume button click',
+                    });
+                }
+            }
+        </script>
+    </body>
+</html>

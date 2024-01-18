@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 100px;
+
+    padding-left: 120px;
+    padding-right: 120px;
+
+    color: #403930;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+}
+
+@media (max-width: 520px) {
+    nav {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 24px;
+        height: fit-content;
+
+        color: #403930;
+        font-family: Pretendard;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 30px */
+    }
+}

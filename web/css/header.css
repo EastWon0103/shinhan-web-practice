@@ -5,6 +5,47 @@ header {
     align-items: center;
 }
 
+@media (max-width: 520px) {
+    header {
+        margin: 80px 24px;
+    }
+}
+
+.wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .headerInfo {
     width: 570px;
     display: flex;
@@ -45,6 +86,21 @@ header h1 em {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .headerLinkContainer {
@@ -89,4 +145,27 @@ header h1 em {
     border-radius: 500px;
     border: 10px solid #bcf2f9;
     background: lightgray 50% / cover no-repeat;
+}
+
+@media (max-width: 520px) {
+    .profileImage img {
+        display: none;
+    }
+
+    .headerInfo {
+        width: 100%;
+    }
+
+    .badge {
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    .headerLinkContainer a {
+        font-size: 14px;
+        width: 120px;
+    }
 }

@@ -1,0 +1,28 @@
+.aspiration {
+    background: linear-gradient(96deg, rgba(189, 210, 255, 0.4) 1.72%, rgba(116, 224, 215, 0.4) 158.93%);
+    padding: 60px 120px;
+}
+
+.aspiration h1 {
+    color: #403930;
+    font-family: Pretendard;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 60px */
+    letter-spacing: -0.96px;
+}
+
+@media (max-width: 520px) {
+    .aspiration {
+        padding: 80px 24px;
+    }
+
+    .aspiration h1 {
+        font-size: 24px;
+    }
+
+    .aspiration-text br {
+        display: none;
+    }
+}
